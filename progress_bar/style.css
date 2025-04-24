@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(3, 2, 72);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+div{
+    height:60px;
+    border-radius: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    
+    padding:20px 20px;
+    font-size: 30px;
+    color: azure;
+    /* display: flex;
+    align-items: center; */
+    text-align:end;
+    animation: progressb 10s linear 0s infinite normal;
+}
+ 
+@keyframes progressb{
+    /* 0%{
+        width: 0%;
+        background-color: rgb(11, 217, 11);
+    }
+    45%{
+        width: 45%;
+        background-color:rgb(41, 162, 236) ;
+    }
+    75%{
+        width: 75%;
+        background-color: rgb(246, 189, 1);
+    }
+    100%{
+        width: 100%;
+        background-color: red;
+    } */
+    to{
+        width: 0%;
+        filter: hue-rotate(0deg);
+    }
+    from{
+        width: 100%;
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+
+/* change 75% to actual % and add upload button and upload 4 of 10 pic and succesfully uploaded remark */
