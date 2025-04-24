@@ -1,0 +1,59 @@
+body{
+    font-family: Courier, monospace ;
+    font-size: 25px;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: black;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+button{
+    background-color: #f08804;
+}
+#heading{
+    color: #f08804;
+    padding-right: 150px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 150px;
+}
+
+#footer{
+    margin-top: auto;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+#image{
+    width: 100px;
+    height: 40px;
+    background-image: url("Amazon-Logo-Font-1-scaled.jpg");
+    background-size: cover;
+    margin-right: 30px;
+}
+
+.class1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    background-image: url("photo-1574158622682-e40e69881006.avif");
+    background-size: cover;
+    margin-left: auto;
+    position: sticky;
+    top: 70px;
+    /* z-index: -1; */
+}
+
