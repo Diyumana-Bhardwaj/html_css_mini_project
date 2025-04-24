@@ -1,0 +1,18 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#box1, #box2{
+    border-radius: 50%;
+}
+#box2{
+    position: relative;
+    top: 100px;}
+
+#box1{
+    position: relative;
+    top:400px;
+    left: 100px;
+}
