@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(3, 2, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 150px;
+    border-radius: 20px;
+}
+a{
+    width: 268px;
+    height: 194px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    text-decoration: none;
+}
+.front{
+    width: 268px;
+    height: 194px;
+    background-color: pink;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 7px;
+    text-align: center;
+    backface-visibility: hidden;
+    transform:perspective(600px) rotateY(0deg);
+}
+.one{
+    width: 259px;
+    height: 198px;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    transform:perspective(600px) rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+}
+a:hover > .front{
+    transition: 4s;
+    transform: perspective(600px) rotateY(180deg);
+}
+a:hover > .one{
+    transition-delay: 4s;
+    transition: 4s;
+    transform: perspective(600px) rotateY(360deg);
+}
+
+
+
+/* if you want to turn from left */
+/* a:hover > .front{
+    transition: 4s;
+    transform: perspective(600px) rotateY(-180deg);
+}
+a:hover > .one{
+    transition-delay: 4s;
+    transition: 4s;
+    transform: perspective(600px) rotateY(0deg);
+} */
